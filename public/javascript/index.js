@@ -27,8 +27,7 @@ window.addEventListener('load', () => {
     charactersAPI
       .getOneRegister(node)
       .then(elm => {
-        let result = ''
-        result +=
+        let result =
           `<div class="character-info">
         <div class="name">Character Name: ${elm.data.name}</div>
         <div class="occupation">Character Occupation: ${elm.data.occupation}</div>
